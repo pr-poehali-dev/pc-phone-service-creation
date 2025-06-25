@@ -10,10 +10,12 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <Icon name="Wrench" className="text-primary" size={32} />
-            <span className="text-2xl font-bold text-dark-purple">
-              ТехСервис
-            </span>
+            <img
+              src="https://cdn.poehali.dev/files/426a9e1a-d349-40a3-9332-c92f0c7461e2.png"
+              alt="ПоФикси Logo"
+              className="w-8 h-8 object-contain"
+            />
+            <span className="text-2xl font-bold text-dark-purple">ПоФикси</span>
           </div>
 
           <nav className="hidden md:flex items-center space-x-6">
