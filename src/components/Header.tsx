@@ -10,12 +10,9 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <img
-              src="https://cdn.poehali.dev/files/426a9e1a-d349-40a3-9332-c92f0c7461e2.png"
-              alt="ПоФикси Logo"
-              className="w-8 h-8 object-contain"
-            />
-            <span className="text-2xl font-bold text-dark-purple">ПоФикси</span>
+            <span className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-violet-600 bg-clip-text text-transparent">
+              ТехноПлюс
+            </span>
           </div>
 
           <nav className="hidden md:flex items-center space-x-6">
@@ -42,7 +39,7 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-4">
             <div className="text-right">
               <div className="text-sm text-gray-500">Звоните прямо сейчас</div>
-              <div className="font-semibold text-dark-purple">
+              <div className="font-semibold text-purple-600">
                 +7 (999) 123-45-67
               </div>
             </div>
